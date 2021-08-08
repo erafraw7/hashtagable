@@ -216,7 +216,6 @@ class HashTagEditableTextState extends EditableTextState {
     if (detections.isEmpty) {
       /// use same method as default textField to show composing underline
       return widget.controller.buildTextSpan(
-        context: context,
         style: widget.style,
         withComposing: !widget.readOnly,
       );
